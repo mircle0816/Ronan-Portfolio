@@ -290,8 +290,8 @@
                 "title": "View Resume",
                 "icon": null,
                 "ctaType": "secondary",
-                "isExternalLink": false,
-                "linkUrl": "/resume"
+                "isExternalLink": true,
+                "linkUrl": "/doc/resume.pdf"
               }
             ]
           },
