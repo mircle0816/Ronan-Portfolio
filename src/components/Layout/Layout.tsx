@@ -26,7 +26,7 @@ const Layout: React.FC<Props> = ({
       <SEO>{metaTags}</SEO>
       {isPreview && <PreviewBanner onLeavePreviewBtnClick={deactivatePreviewMode} />}
       {header}
-      <main id="main" className="flex flex-col flex-grow justify-center h-full w-full mx-auto">
+      <main id="main" className="flex flex-col flex-grow w-full mx-auto">
         {children}
       </main>
       {footer}
