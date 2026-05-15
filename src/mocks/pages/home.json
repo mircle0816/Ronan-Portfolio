@@ -291,7 +291,7 @@
                 "icon": null,
                 "ctaType": "secondary",
                 "isExternalLink": true,
-                "linkUrl": "https://raw.githubusercontent.com/mircle0816/Ronan-Portfolio/main/Resume.pdf"
+                "linkUrl": "/doc/resume.pdf"
               }
             ]
           },
