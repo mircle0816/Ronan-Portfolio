@@ -94,6 +94,9 @@
     "type": "git",
     "url": "git+https://github.com/Pobermeier/pobermeier-portfolio-v3.git"
   },
+  "engines": {
+  "node": ">=18"
+  },
   "bugs": {
     "url": "https://github.com/Pobermeier/pobermeier-portfolio-v3.git/issues"
   },
