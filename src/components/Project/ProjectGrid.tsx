@@ -57,7 +57,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     repoLink: "https://github.com/mircle0816/react-todoApp",
     liveLink: "https://react-todo-phix.netlify.app/",
     imageUrl:
-      "https://opengraph.githubassets.com/1/mircle0816/react-todoApp",
+      "https://iad.microlink.io/xMGpHuBTqB7XFUf8WwaNG0IiX409_si4YpT-p3O18agd_rHwvNC7ay-l2QWGrvZaNOHFCOZ2vSZFMWBBero1nQ.png",
     projectLogo: {
       url: "https://cdn.simpleicons.org/react/61DAFB",
     },
@@ -175,47 +175,42 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     ],
   },
   "Vintage Poker": {
-    title: "Fullstack Ecommerce App",
-    subTitle: "MERN Stack E-Commerce Platform",
+    title: "MERN eCommerce Platform",
+    subTitle: "Full-Featured Online Shopping Platform",
     description:
-      "A fullstack ecommerce platform built with the MERN stack. Features user authentication with JWT, product browsing & filtering, shopping cart, and secure payments via Stripe. State is managed with Redux Toolkit.",
+      "A full-featured ecommerce platform built with the MERN stack. Includes product search, filtering & pagination, shopping cart, user profiles with order history, an admin dashboard, product reviews, and secure checkout via Razorpay.",
     repoLink: "https://github.com/mircle0816/MERN-ecommerce",
-    liveLink: "https://kruppstore.netlify.app",
+    liveLink: "https://mern-shop-abxs.onrender.com/",
     projectLogo: {
-      url: "https://cdn.simpleicons.org/stripe/6772E5",
+      url: "https://cdn.simpleicons.org/mongodb/47A248",
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1280&q=80",
+      "https://opengraph.githubassets.com/1/mircle0816/MERN-ecommerce",
     technologiesUsed: [
       {
         id: "t1",
-        name: "JavaScript (ES6+)",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341255-javascript.svg" },
-      },
-      {
-        id: "t2",
         name: "React",
         logo: { url: "https://www.datocms-assets.com/60761/1642341260-react.svg" },
       },
       {
-        id: "t3",
-        name: "Redux",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-redux.svg" },
-      },
-      {
-        id: "t4",
+        id: "t2",
         name: "Node.js",
         logo: { url: "https://www.datocms-assets.com/60761/1642341257-node-dot-js.svg" },
       },
       {
-        id: "t5",
+        id: "t3",
+        name: "Express.js",
+        logo: { url: "https://cdn.simpleicons.org/express/6E6E6E" },
+      },
+      {
+        id: "t4",
         name: "MongoDB",
         logo: { url: "https://cdn.simpleicons.org/mongodb/47A248" },
       },
       {
-        id: "t6",
-        name: "Express.js",
-        logo: { url: "https://cdn.simpleicons.org/express/6E6E6E" },
+        id: "t5",
+        name: "Razorpay",
+        logo: { url: "https://cdn.simpleicons.org/razorpay/3395FF" },
       },
     ],
   },
