@@ -57,7 +57,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     repoLink: "https://github.com/mircle0816/react-todoApp",
     liveLink: "https://react-todo-phix.netlify.app/",
     imageUrl:
-      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1280&q=80",
+      "https://opengraph.githubassets.com/1/mircle0816/react-todoApp",
     projectLogo: {
       url: "https://cdn.simpleicons.org/react/61DAFB",
     },
@@ -179,7 +179,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     subTitle: "MERN Stack E-Commerce Platform",
     description:
       "A fullstack ecommerce platform built with the MERN stack. Features user authentication with JWT, product browsing & filtering, shopping cart, and secure payments via Stripe. State is managed with Redux Toolkit.",
-    repoLink: "https://github.com/mircle0816/myRepo.git",
+    repoLink: "https://github.com/mircle0816/MERN-ecommerce",
     liveLink: "https://kruppstore.netlify.app",
     projectLogo: {
       url: "https://cdn.simpleicons.org/stripe/6772E5",
