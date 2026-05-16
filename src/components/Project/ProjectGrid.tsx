@@ -185,7 +185,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
       url: "https://cdn.simpleicons.org/mongodb/47A248",
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1605902711834-8b11c3e3ef2f?auto=format&fit=crop&w=1280&q=80",
+      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1280&q=80",
     technologiesUsed: [
       {
         id: "t1",
