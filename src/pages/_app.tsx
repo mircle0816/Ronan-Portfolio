@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import type { AppProps } from "next/app";
 import Script from "next/script";
+import { useEffect } from "react";
 // constants
 import { isProd } from "Constants";
 // components
@@ -24,6 +25,15 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   useGoogleTagManager();
   useCookieBanner();
   useScrollToHashOnPageLoad();
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.history.scrollRestoration = "manual";
+      if (!window.location.hash) {
+        window.scrollTo(0, 0);
+      }
+    }
+  }, []);
 
   const isAosInitiated = useAOS({ once: true, delay: 300, disable: "mobile" });
 

@@ -57,7 +57,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     repoLink: "https://github.com/mircle0816/react-todoApp",
     liveLink: "https://react-todo-phix.netlify.app/",
     imageUrl:
-      "https://iad.microlink.io/xMGpHuBTqB7XFUf8WwaNG0IiX409_si4YpT-p3O18agd_rHwvNC7ay-l2QWGrvZaNOHFCOZ2vSZFMWBBero1nQ.png",
+      "https://images.unsplash.com/photo-1598791318878-10e76d178023?auto=format&fit=crop&w=1280&q=80",
     projectLogo: {
       url: "https://cdn.simpleicons.org/react/61DAFB",
     },
