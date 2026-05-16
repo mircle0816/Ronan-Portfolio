@@ -57,7 +57,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     repoLink: "https://github.com/mircle0816/react-todoApp",
     liveLink: "https://react-todo-phix.netlify.app/",
     imageUrl:
-      "https://images.unsplash.com/photo-1598791318878-10e76d178023?auto=format&fit=crop&w=1280&q=80",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1280&q=80",
     projectLogo: {
       url: "https://cdn.simpleicons.org/react/61DAFB",
     },
@@ -185,7 +185,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
       url: "https://cdn.simpleicons.org/mongodb/47A248",
     },
     imageUrl:
-      "https://opengraph.githubassets.com/1/mircle0816/MERN-ecommerce",
+      "https://images.unsplash.com/photo-1605902711834-8b11c3e3ef2f?auto=format&fit=crop&w=1280&q=80",
     technologiesUsed: [
       {
         id: "t1",
