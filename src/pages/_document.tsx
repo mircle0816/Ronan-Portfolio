@@ -32,6 +32,11 @@ class MyDocument extends Document {
           )}
           {/* End Google Tag Manager (noscript) */}
 
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `if('scrollRestoration'in history){history.scrollRestoration='manual';}window.scrollTo(0,0);`,
+            }}
+          />
           <Main />
           <NextScript />
         </body>
