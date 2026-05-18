@@ -74,7 +74,7 @@ const HeroSection = ({ heading, subHeading, callToActions }: HeroSectionProps) =
       <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2 lg:h-full overflow-hidden lg:rounded-r-full">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://images.unsplash.com/photo-1605818215588-c8013661b021?auto=format&fit=crop&w=1920&q=80"
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1920&q=80"
           alt="developer workspace"
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out hover:scale-110"
         />
