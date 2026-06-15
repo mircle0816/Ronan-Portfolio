@@ -152,7 +152,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     repoLink: "https://github.com/mircle0816/healthcare-react-native.git",
     liveLink: "",
     imageUrl:
-      "https://images.unsplash.com/photo-1670191247079-f9713ae06dcf?auto=format&fit=crop&w=1280&q=80",
+      "https://images.unsplash.com/photo-1776104501583-3c83f2adfc3d?auto=format&fit=crop&w=1280&q=80",
     projectLogo: {
       url: "https://cdn.simpleicons.org/react/61DAFB",
     },

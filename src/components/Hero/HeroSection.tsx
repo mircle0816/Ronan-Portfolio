@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 // types
 import { CTAContainerProps } from "components/Buttons/CTAContainer";
@@ -21,7 +22,23 @@ export interface HeroSectionProps {
   callToActions: CTAContainerProps[];
 }
 
+const HERO_IMAGES = [
+  "https://images.unsplash.com/photo-1562071707-7249ab429b2a?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1617629927392-f6afae49ad61?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1732210038531-9cefab37885a?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1570393597884-ba37bef04adc?auto=format&fit=crop&w=1920&q=80",
+];
+
 const HeroSection = ({ heading, subHeading, callToActions }: HeroSectionProps) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % HERO_IMAGES.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
   const renderCallToActions = () =>
     callToActions?.[0]?.callToActions?.map(
       ({ ctaType, icon, id, isExternalLink, linkUrl, title }) =>
@@ -72,12 +89,29 @@ const HeroSection = ({ heading, subHeading, callToActions }: HeroSectionProps) =
         </div>
       </div>
       <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2 lg:h-full overflow-hidden lg:rounded-r-full">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1920&q=80"
-          alt="developer workspace"
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out hover:scale-110"
-        />
+        {HERO_IMAGES.map((src, index) => (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            key={src}
+            src={src}
+            alt="developer workspace"
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out hover:scale-110 ${
+              index === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+          {HERO_IMAGES.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentIndex(index)}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                index === currentIndex ? "bg-white scale-125" : "bg-white/50"
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
