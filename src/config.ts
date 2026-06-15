@@ -22,7 +22,7 @@ const config = {
   urls: {
     email: "mailto:ronanbusinessemail@gmail.com",
     fakeEmail: "mailto:ronanbusinessemail@gmail.com",
-    linkedIn: "https://www.linkedin.com/in/patrickobermeier/",
+    linkedIn: "https://www.linkedin.com/in/ronan-abequibel-b3972b411/",
     github: "https://github.com/mircle0816",
     twitter: "",
     websiteRepo: "https://github.com/mircle0816",
